@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+}
+
+
+
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #8c9d75;
+  border-radius: 25px;
+}
+
+.container a{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.container li{
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+  margin: 0 25px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#body-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+
+}
+
+#heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 50px 0px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#heading{
+  display: flex;
+  background-image: url("images/sale.jpg");
+  height: 19vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 13%;
+  background-blend-mode:hard-light;
+}
+
+.p-one{
+  color: black;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+strong{
+  font-size: 30px;
+  line-height: 80px;
+  color: black;
+}
+
+.main-box p{
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.container-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.box-one{
+  max-width: 350px;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.3s;
+  background-color: #8c9d75;
+}
+
+.box-one:hover{
+  background-color: #ffffff;
+  box-shadow: 16px 20px 50px rgba(0,0,0,0.12);
+}
+
+.img1{
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  overflow:hidden;
+  display: flex;
+}
+
+.img2{
+  width: 100%;
+  height: 100%;
+  max-height: 215px;
+  overflow:hidden;
+  display: flex;
+}
+
+.img3{
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  overflow:hidden;
+  display: flex;
+}
+
+.box-one img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.box-one-text{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px 20px 10px;
+  line-height: 36px;
+}
+
+.box-one-text p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.copy{
+  text-decoration:overline;
+  text-align: right;
+
+}
